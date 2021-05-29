@@ -8,7 +8,7 @@ public class TestMyDB {
     public static void main(String[] args) {
         MyDB db = new MyDB("localhost", 3306, "mydb");
         db.setUser("root");
-        db.setPassword("jar23gej2ms");
+        db.setPassword("SickDaler1599");
         Connection conn = db.getConnection();
         if (conn != null)
             System.out.println("Połączenie z bazą danych nawiązane");
